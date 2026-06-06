@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px transparent solid;
+    background-color: blanchedalmond;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    padding-left: 20px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+button {
+    margin-left: 5px;
+}
+
+img {
+    height: 20px;
+    margin-right: 10px
+}
