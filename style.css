@@ -6,7 +6,9 @@
 
 body {
     margin: 0px;
-}
+   
+     
+} 
 
 header {
     display: flex;
@@ -14,12 +16,14 @@ header {
     align-items: center;
     border: 2px transparent solid;
     background-color: blanchedalmond;
+
 }
 
 header nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+   
 
 }
 
@@ -49,7 +53,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-
+   
 }
 
 .child {
@@ -59,12 +63,14 @@ img {
     border: 2px transparent solid;
     background-color: #D4AF36;
     border-radius: 50px;
+    
 
 }
 
 .conteneur h1 {
     color: var(--orange);
     font-size: 55px;
+  
 }
 
 .slogan {
@@ -72,18 +78,21 @@ img {
     justify-content: center;
     align-items: center;
     color: var(--orange)
+
 }
 
 .button1 {
-border: 10px transparent solid;
-background-color: red;
-color:white;
-border-radius:30px;
-}
-.button2{
-    border: 10px white solid;
-    background-color:grey;
+    border: 10px transparent solid;
+    background-color: red;
+    color: white;
     border-radius: 30px;
-    color:white;
-    opacity:0.5;
 }
+
+.button2 {
+    border: 10px white solid;
+    background-color: grey;
+    border-radius: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
