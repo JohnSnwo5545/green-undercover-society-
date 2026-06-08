@@ -3,13 +3,22 @@
 
 }
 
-
+*, ::before, ::after{
+    box-sizing: border-box;
+ 
+}
+html, body{
+    height: 100%;
+}
 body {
-    margin: 0px;
-   
+   margin: 0;
+    display: flex;
+   flex-direction: column;
      
 } 
-
+.contenue{
+    flex-grow: 1;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -53,8 +62,10 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+
    
 }
+
 
 .child {
     display: flex;
@@ -94,5 +105,9 @@ img {
     border-radius: 30px;
     color: white;
     opacity: 0.5;
+ 
 }
+footer{
+    text-align: center;
 
+}
