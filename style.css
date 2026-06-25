@@ -48,12 +48,21 @@ header nav ul li {
     padding-left: 20px;
 
 
+
+}
+
+header nav ul li:hover {
+    text-decoration: underline;
+    color: green;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
 
+header i {
+    cursor: pointer;
 }
 
 button {
@@ -114,10 +123,13 @@ img {
 
 }
 
-footer {
-    text-align: center;
-
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px black solid;
+    background-color: yellowgreen;
 }
+
 
 .info {
     list-style: none;
